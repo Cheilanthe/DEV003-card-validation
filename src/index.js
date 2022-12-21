@@ -11,7 +11,6 @@ function comportamientoBoton(event){
   console.log(resultado);
   const valid = validator.isValid(creditCardNumber); 
   console.log(valid)
-
 }
 
 

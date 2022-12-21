@@ -13,8 +13,7 @@ const validator = {
     } 
   },
   isValid: function(userCard){
-    const card = Array.from(userCard);
-    if (card.length >= 11 && card.length <= 16){
+    const card = Array.from(userCard);    
     let numbers = (card.reverse()); // voltear el array
     console.log(numbers);
     // del array debo encontrar las posiciones pares
@@ -53,11 +52,7 @@ const validator = {
     }
     console.log(sumaFinal);
     //la suma le aplico el modulo 10 y me tiene que dar 0 para que retorne true
-    if (sumaFinal%10===0){
-      console.log("tarjeta válida")    
-    }else{
-      console.log("tarjeta no válida")
-    }
+    if (card.length >= 11 && card.length <= 16 && sumaFinal%10===0){
     return true
     }else{
     return false
