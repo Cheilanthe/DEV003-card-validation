@@ -16,7 +16,7 @@ En este proyecto la página que se desarrollo fue para las usuarias de una marca
 
 ## 2. Objetivos
 
-El principal objetivo fue hacer una interfaz que le permitiera al usuario ingresar un número de tarjeta, qué enmascarará dicho número y determinara si era una tarjeta válida para realizar la compra. 
+El principal objetivo fue hacer una interfaz que le permitiera al usuario ingresar un número de tarjeta, que enmascarará dicho número y determinara si era una tarjeta válida para realizar la compra. 
 Con esto los usuarios pueden realizar compras más efectivas, ya que los datos que ingresa son válidados; lo que podría indicarle al usuario si ha cometido algun error al ingresar sus datos y debe rectificarlo. 
 
 ## 3. Proceso de trabajo
