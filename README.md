@@ -15,25 +15,13 @@ En este proyecto la página que se desarrollo fue para las usuarias de una marca
 
 
 ## 2. Objetivos
-<<<<<<< HEAD
 El principal objetivo fue hacer una interfaz que le permitiera al usuario ingresar un número de tarjeta, enmascarar dicho número y determinar si era una tarjeta válida para realizar la compra. Con esto, los usuarios pueden realizar compras más efectivas, ya que los datos que ingresan dichos usuarios son validados, y les indica si han cometido algún error al ingresar sus datos y que deben rectificarlos.
 
 ## 3. Proceso de trabajo
-* El proyecto comenzó con la elección del tema. Una vez que tuvé claro el tema hice una busqueda de cómo se veían algunas páginas de tiendas en línea. Especificamente me centré en el ingreso y válidación de la tarjeta. De todas elegí la página de Bershka. 
+* El proyecto comenzó con la elección del tema. Una vez que tuv claro el tema hice una busqueda de cómo se veían algunas páginas de tiendas en línea. Especificamente me centré en el ingreso y válidación de la tarjeta. De todas elegí la página de Bershka. 
 ![Prototipo de la página](/ejemplo%20de%20car%20validation.png)
 
-* Cuando tuvé claro qué tipo de diseño quería estuve documentandome acerca de posibles respuestas que me permitieran concretar el proyecto. Me dí cuenta que debía comenzar por los conceptos básicos, así que en lugar de buscar respuestas comencé a estudiar. 
-=======
-
-El principal objetivo fue hacer una interfaz que le permitiera al usuario ingresar un número de tarjeta, enmascarar dicho número y determinar si era una tarjeta válida para realizar la compra. 
-Con esto los usuarios pueden realizar compras más efectivas, ya que los datos que ingresan dichos usuarios son validados, y les indica si han cometido algún error al ingresar sus datos y que deben rectificarlos. 
-
-## 3. Proceso de trabajo
-* El proyecto comenzó con la elección del tema. Una vez que tuvé claro el tema, hice una busqueda de cómo se veían algunas páginas de tiendas en línea. Especificamente me centré en el ingreso y válidación de la tarjeta. De todas elegí la página de Bershka. 
-![Prototipo de la página](/ejemplo%20de%20car%20validation.png)
-
-* Cuando tuve claro el tipo de diseño quería estuve documentandome acerca de posibles respuestas que me permitieran concretar el proyecto. Me dí cuenta que debía comenzar por los conceptos básicos, así que en lugar de buscar respuestas comencé a estudiar. 
->>>>>>> 399b81fc860c3beb8bdb892f01af780eec7d3d43
+* Cuando tuve claro qué tipo de diseño quería estuve documentandome acerca de posibles respuestas que me permitieran concretar el proyecto. Me di cuenta que debía comenzar por los conceptos básicos, así que en lugar de buscar respuestas comencé a estudiar. 
 
 * Después de algunos días, consideré que me había documentado lo suficiente me dí cuenta de qué era necesario realizar un diagrama de flujo del proyecto. Esto me permitiría desarrollar un plan de trabajo: 
 
