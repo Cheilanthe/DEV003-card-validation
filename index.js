@@ -8,13 +8,11 @@ function comportamientoBoton(event){
   event.preventDefault();
   const creditCardNumber=document.getElementById("numtarjeta").value;
   const resultado = validator.maskify(creditCardNumber); //llamo al método de mi validator
-  console.log(resultado);
   const valid = validator.isValid(creditCardNumber); 
-  console.log(valid)
   if (valid === true){
-    alert("Su tarjeta es válida")
+    alert("Su tarjeta con terminación "+ resultado + " es válida")
   }else{ 
-    alert("Su tarjeta no es válida")
+    alert("Su tarjeta con terminación "+ resultado + " es inválida")
   }
 }
 

@@ -7,35 +7,43 @@
   </head>
   <body>
     
-    <header>
-      <div id="logo">
-       <h1> Maria Bonita </h1> 
-      </div>  
-    </header>
-    
-    <main>
-    <div id="contenedor">
-      <h2>Datos del comprador</h2>
-      <form id="form">
-      <div id="datos">
+    <header class="header">
+      <h1> Maria Bonita </h1> 
+    </header>    
+    <main class="main">
+      <section class="section">      
+        <h2>Datos del comprador</h2>
+      <form id="datos">
         <ul>
         <li><label for="tarjeta">Número de tarjeta</label></li>
         <input type="text" name="numtarjeta" id="numtarjeta"/>
-        <input type="submit"  id="boton" value="validar"/>
         <li><label for ="mes">Fecha de caducidad</label></li>
         <input type="month" id="mes"/>
         <li><label>Código CVV</label></li>
         <input type="text">
         <li><label for="name">Nombre completo</label></li>
         <input type="text" name="nombre" id="nom"/>
-      </ul>
-      </div>
+        <li><input type="submit"  id="boton" value="validar datos"/></li>
+        </ul>
       </form>
-    </div>
-      
+      </section>
+      <aside class="aside">
+        <h2>Datos de la compra</h2>
+        <ul>
+          <li><label for="precio">Subtotal ............$123 </label></li>
+          <li><label for="total">Total ................$150 </label></li>
+          <li><input type="radio"> Acepto condiciones de políticas de privacidad</li>
+  
+        </ul>
+      </aside> 
     </main>
-    
-    <footer></footer>
+    <footer class="footer">
+      <div class = "sociales">
+      <a href="#"><img src="img/facebook.png" alt="facebook"></a>
+      <a href="#"><img src="img/instagram.png" alt="instagram"></a>
+      <a href="#"><img src="img/tuiter.png" alt="tuiter"></a>
+      </div>
+    </footer>
     <script src="index.js" type="module"></script>
   </body>
 </html>
