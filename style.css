@@ -53,13 +53,26 @@ body{
     width: 50%;
     height: auto;
   }
-  li{
+  .section ul li {
     list-style-type: none;
     text-align: left;
     padding-top: 10px;
     margin-bottom: 0px;
     width: 100%;
-  
+  }
+  .check{
+    width: 100%;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:left;
+    margin: 5%;
+  }
+  .aside ul li {
+    list-style-type: none;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 0px;
+    width: 100%;
   }
   #boton{
   background-color: black;
@@ -69,25 +82,33 @@ body{
   border-radius: 8px;
   }
   form input {
-  border: 1px solid rgb(80, 80, 80);
+  border: 1px solid rgb(165, 161, 161);
   border-radius: 8px;
   width: 80%;
-  height: 25px;
+  height: 35px;
   }
   .footer{
     height: auto;
-    width: 100%;
+    width: auto;
     margin-top: auto;
     border: 1px solid black;
   }
-  footer .sociales{
+  .footer{
   display: flex;
   justify-content: center;
   }
-  img{
+  .footer img{
     width: 45px;
     height: 45px;
   }
 
+  #asidephoto{
+    margin: auto;
+    width: 50%;
+    height: 70%;    
+  }
+  span{
+    font-size: 12px;
+  }
 
   
