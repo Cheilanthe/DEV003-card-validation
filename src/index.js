@@ -10,21 +10,23 @@ function comportamientoBoton(event){
   const resultado = validator.maskify(creditCardNumber); //llamo al método de mi validator
   const valid = validator.isValid(creditCardNumber); 
   if (valid === true){
-    alert("Su tarjeta con terminación "+ resultado + " es válida")
+    document.getElementById("error").innerHTML= ("Su tarjeta con terminación "+ resultado + " es válida");
+    document.getElementById("error").style.color = "green"
   }else{ 
-    alert("Su tarjeta con terminación "+ resultado + " es inválida")
+    document.getElementById("error").innerHTML=("Su tarjeta con terminación "+ resultado + " es inválida");
+    document.getElementById("error").style.color = "red"
   }
 }
-
-
-/*entradaTarjeta.oninput = function(){
-  const entradaTarjeta = document.querySelector(".numtarjeta");
-  const resultado = validator.maskify(entradaTarjeta);
-  resultado.innerHTML=entradaTarjeta.value;
-} */ 
-
+/*
 // imprimir los valores de maskify
-
+const entradaTarjeta = document.getElementById("numtarjeta");
+entradaTarjeta.addEventListener("keyup",mask);
+function mask (){
+  const creditCardNumber=document.getElementById("numtarjeta").value;
+  const resul = validator.maskify(creditCardNumber); 
+  document.getElementById("numtarjeta").value = resul;
+}
+*/
 /*
 const digitosTarjeta= document.getElementById("numtarjeta");
 digitosTarjeta.addEventListener("keydown",presionarTecla())
